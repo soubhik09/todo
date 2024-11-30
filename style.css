@@ -133,4 +133,11 @@ input[type="checkbox"]:checked{
 
 input[type="checkbox"]:checked + .smsText{
     text-decoration: line-through;
+    color: gray;
+}
+
+@media screen and (max-width: 600px){
+    .todo_content{
+        width: 350px;
+    }
 }
